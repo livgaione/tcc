@@ -18,7 +18,7 @@ public class controller {
         String urlName = "https://dlcdn.apache.org/maven/maven-3/3.8.5/source/apache-maven-3.8.5-src.zip";
 
         try {
-            Thread.sleep(10);
+            Thread.sleep(5000);
 
             URL url = new URL(urlName);
 
