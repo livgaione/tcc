@@ -10,7 +10,7 @@ volumes:
 
 services:
   grafana:
-    image: grafana/grafana:latest
+    image: grafana/grafana-oss
     container_name: MY_GRAFANA
     ports:
       - 10000:10000
